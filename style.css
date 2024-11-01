@@ -29,7 +29,8 @@ main{
  margin-block: 3rem 2.5rem ;
 }
 .header{
-  background-color: #2E354F;
+  /* background-color: #2E354F; */
+  background-color: magenta;
   color: #fff;
 
 }
