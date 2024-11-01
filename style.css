@@ -1,0 +1,118 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: papayawhip;
+  color:#242222;
+  height: 100vh;
+  display:flex ;
+  flex-direction: column;
+  
+}
+main{
+  flex-grow: 1;
+  
+}
+
+.container{
+  width: 480px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 45px 32px;
+  border: 1px solid magenta;
+}
+
+.section{
+ margin-block: 3rem 2.5rem ;
+}
+.header{
+  background-color: #2E354F;
+  color: #fff;
+
+}
+.footer{
+  background-color: #2E354F;
+  color: #fff;
+}
+img{
+  display: block;
+  max-width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+
+
+}
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  /* gap: 0.5rem; */
+
+}
+.title{
+  font-size: 32px;
+  font-weight: 600;
+  color: #2E354F;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+hr{
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+/* screens between 480 -600 apply this */
+@media (min-width:480px) and (max-width:600px){
+  .container{
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 45px 32px;
+    border: 1px solid magenta;
+  }
+}
+
+/* for medum table screens 600px -1024px */
+@media (min-width:600px) and (max-width: 1024px){
+  .container{
+    width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3rem 4rem;
+    border: 1px solid magenta;
+  }
+  img{
+    display: block;
+    max-width: 44%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+  }
+  .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+  }
+}
+/* screens for laptops  1024px and above - */
+@media (min-width:1024px){
+  body{
+    background-color: rgb(235, 235, 235);
+    font-size: x-large;
+  }
+  .container{
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3rem 4rem;
+    border: 1px solid magenta;
+  }
+ 
+}
