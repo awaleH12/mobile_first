@@ -32,8 +32,8 @@ main{
   background-color: lightcoral;
   /* background-color: magenta; */
   color: #fff;
-  /* border: 1px solid white;
-  border-radius: 13px; */
+  border: 1px solid white;
+  border-radius: 13px;
 
 }
 .footer{
