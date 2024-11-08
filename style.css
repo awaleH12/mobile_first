@@ -32,6 +32,8 @@ main{
   /* background-color: #2E354F; */
   background-color: magenta;
   color: #fff;
+  border: 1px solid white;
+  border-radius: 13px;
 
 }
 .footer{
